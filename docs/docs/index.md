@@ -13,4 +13,4 @@ Welcome to the documentation for the **Dynamic Data Gathering Platform**, an ope
 - **Flexibility**: Customize forms and workflows to suit your specific needs.
 - **Open Source**: Free to use, modify, and distribute.
 
-[Get Started](#getting-started)
+[Get Started](getting-started)
