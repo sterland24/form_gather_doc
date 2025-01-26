@@ -1,5 +1,5 @@
 site_name: form gather
 nav:
   - Home: index.md
-  - About: about.md
+  - Getting Started: getting-started.md
 theme: material
