@@ -1,5 +1,9 @@
 site_name: form gather
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+  - User Guide:
+    - Admin Panel: adminPanel.md
+    - Radio Button: radio_button.md
+    - Text Input: text_input.md
+    - Select Dropdown: select_dropdown.md
 theme: material

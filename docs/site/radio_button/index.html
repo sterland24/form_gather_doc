@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../adminPanel/">
       
+      
+        <link rel="next" href="../text_input/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Getting Started - form gather</title>
+        <title>Radio Button - form gather</title>
       
     
     
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-started" class="md-skip">
+        <a href="#radio-button-field" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting Started
+              Radio Button
             
           </span>
         </div>
@@ -210,6 +212,64 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adminPanel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin Panel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -222,7 +282,7 @@
           
   
   <span class="md-ellipsis">
-    Getting Started
+    Radio Button
   </span>
   
 
@@ -233,7 +293,7 @@
         
   
   <span class="md-ellipsis">
-    Getting Started
+    Radio Button
   </span>
   
 
@@ -255,17 +315,91 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites
+      Overview
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Example
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-form-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Form Configuration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../text_input/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text Input
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../select_dropdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Select Dropdown
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -298,11 +432,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites
+      Overview
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Example
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-form-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Form Configuration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -321,12 +479,20 @@
                   
 
 
-<h1 id="getting-started">Getting Started</h1>
-<p>This guide will walk you through the steps to set up and use the Dynamic Data Gathering Platform.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Basic knowledge of command-line operations.</li>
-</ul>
+<h1 id="radio-button-field">Radio Button Field</h1>
+<h2 id="overview">Overview</h2>
+<p>The <strong>Radio Button Field</strong> allows users to select <strong>one option</strong> from multiple predefined choices.</p>
+<h2 id="usage-example">Usage Example</h2>
+<p>Use a <strong>radio button</strong> field when you need users to pick a <strong>single</strong> option, such as gender selection or yes/no questions.</p>
+<h3 id="example-form-configuration">Example Form Configuration</h3>
+<pre><code class="language-json">{
+    &quot;type&quot;: &quot;radio&quot;,
+    &quot;label&quot;: &quot;Select Your Gender&quot;,
+    &quot;options&quot;: [&quot;Male&quot;, &quot;Female&quot;, &quot;Other&quot;],
+    &quot;required&quot;: true
+}
+</code></pre>
+<p>This setup ensures users select exactly <strong>one</strong> option.</p>
 
 
 
